@@ -20,6 +20,11 @@
 		E85BA4FC2D4CBAF500EA8607 /* String.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4FB2D4CBAF500EA8607 /* String.ext.swift */; };
 		E85BA5002D4CC13600EA8607 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4FF2D4CC13600EA8607 /* CustomFont.swift */; };
 		E85BA5032D4CC28E00EA8607 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA5022D4CC28E00EA8607 /* View.ext.swift */; };
+		E85BA5062D4D29E300EA8607 /* OrangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA5052D4D29E300EA8607 /* OrangeButton.swift */; };
+		E85BA50C2D4D2F0400EA8607 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA50B2D4D2F0400EA8607 /* OnboardingView.swift */; };
+		E85BA50E2D4D2F6300EA8607 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA50D2D4D2F6300EA8607 /* OnboardingViewPresenter.swift */; };
+		E85BA5102D4D318B00EA8607 /* OnboardingViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA50F2D4D318B00EA8607 /* OnboardingViewContent.swift */; };
+		E85BA5122D4D32F100EA8607 /* OnboardingViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA5112D4D32F100EA8607 /* OnboardingViewData.swift */; };
 		E878217F2D4A8E0900D63B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878217E2D4A8E0900D63B33 /* AppDelegate.swift */; };
 		E87821812D4A8E0900D63B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87821802D4A8E0900D63B33 /* SceneDelegate.swift */; };
 		E87821882D4A8E0A00D63B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87821872D4A8E0A00D63B33 /* Assets.xcassets */; };
@@ -39,6 +44,11 @@
 		E85BA4FB2D4CBAF500EA8607 /* String.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.ext.swift; sourceTree = "<group>"; };
 		E85BA4FF2D4CC13600EA8607 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		E85BA5022D4CC28E00EA8607 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
+		E85BA5052D4D29E300EA8607 /* OrangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButton.swift; sourceTree = "<group>"; };
+		E85BA50B2D4D2F0400EA8607 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E85BA50D2D4D2F6300EA8607 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		E85BA50F2D4D318B00EA8607 /* OnboardingViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewContent.swift; sourceTree = "<group>"; };
+		E85BA5112D4D32F100EA8607 /* OnboardingViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewData.swift; sourceTree = "<group>"; };
 		E878217B2D4A8E0900D63B33 /* BookShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E878217E2D4A8E0900D63B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87821802D4A8E0900D63B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,7 @@
 		E85BA4E42D4C04F200EA8607 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E85BA5042D4D299E00EA8607 /* Button */,
 				E85BA5012D4CC27E00EA8607 /* View */,
 				E85BA4FD2D4CC11B00EA8607 /* Modifiers */,
 				E85BA4E52D4C051600EA8607 /* Extension */,
@@ -98,6 +109,7 @@
 		E85BA4E82D4C05A000EA8607 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E85BA5072D4D2E2200EA8607 /* OnBoarding */,
 				E85BA4E92D4C05A600EA8607 /* PreviewView */,
 				E85BA4ED2D4CB1AF00EA8607 /* RegisterView */,
 			);
@@ -194,6 +206,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E85BA5042D4D299E00EA8607 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA5052D4D29E300EA8607 /* OrangeButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E85BA5072D4D2E2200EA8607 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA50A2D4D2EE500EA8607 /* Presenter */,
+				E85BA5092D4D2EDD00EA8607 /* Model */,
+				E85BA5082D4D2ED500EA8607 /* View */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		E85BA5082D4D2ED500EA8607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA50B2D4D2F0400EA8607 /* OnboardingView.swift */,
+				E85BA50F2D4D318B00EA8607 /* OnboardingViewContent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E85BA5092D4D2EDD00EA8607 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA5112D4D32F100EA8607 /* OnboardingViewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E85BA50A2D4D2EE500EA8607 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA50D2D4D2F6300EA8607 /* OnboardingViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		E87821722D4A8E0900D63B33 = {
 			isa = PBXGroup;
 			children = (
@@ -214,10 +269,10 @@
 			isa = PBXGroup;
 			children = (
 				E85BA4F02D4CB1DC00EA8607 /* Builder */,
-				E85BA4E82D4C05A000EA8607 /* Module */,
+				E85BA4D92D4BE50700EA8607 /* Fonts */,
 				E85BA4E42D4C04F200EA8607 /* Helper */,
 				E85BA4DF2D4BE73500EA8607 /* Lottie */,
-				E85BA4D92D4BE50700EA8607 /* Fonts */,
+				E85BA4E82D4C05A000EA8607 /* Module */,
 				E878217E2D4A8E0900D63B33 /* AppDelegate.swift */,
 				E87821802D4A8E0900D63B33 /* SceneDelegate.swift */,
 				E87821872D4A8E0A00D63B33 /* Assets.xcassets */,
@@ -306,6 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85BA4EC2D4C061200EA8607 /* PreviewView.swift in Sources */,
+				E85BA5062D4D29E300EA8607 /* OrangeButton.swift in Sources */,
+				E85BA50E2D4D2F6300EA8607 /* OnboardingViewPresenter.swift in Sources */,
 				E85BA4F82D4CB76D00EA8607 /* RegisterViewContent.swift in Sources */,
 				E85BA4E72D4C053600EA8607 /* Notification.Name.ext.swift in Sources */,
 				E85BA5032D4CC28E00EA8607 /* View.ext.swift in Sources */,
@@ -314,9 +371,12 @@
 				E85BA4E32D4BEB3C00EA8607 /* FontManager.swift in Sources */,
 				E85BA5002D4CC13600EA8607 /* CustomFont.swift in Sources */,
 				E87821812D4A8E0900D63B33 /* SceneDelegate.swift in Sources */,
+				E85BA5122D4D32F100EA8607 /* OnboardingViewData.swift in Sources */,
 				E85BA4F62D4CB5A700EA8607 /* RegisterViewPresenter.swift in Sources */,
 				E85BA4F22D4CB1F300EA8607 /* Builder.swift in Sources */,
 				E85BA4FC2D4CBAF500EA8607 /* String.ext.swift in Sources */,
+				E85BA50C2D4D2F0400EA8607 /* OnboardingView.swift in Sources */,
+				E85BA5102D4D318B00EA8607 /* OnboardingViewContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

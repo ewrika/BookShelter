@@ -25,9 +25,8 @@ class PreviewView: UIViewController {
         lottieView.play()
         
         //2
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        lottieView.play(fromFrame: 0, toFrame: 240, loopMode: .playOnce) { _ in
             NotificationCenter.default.post(name: .windowManager, object: nil , userInfo: [String.windowInfo: WindowCase.reg])
-            
         }
         
     }

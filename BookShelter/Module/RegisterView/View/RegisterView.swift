@@ -19,8 +19,9 @@ class RegisterView: UIViewController, RegisterViewProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let contentView = RegisterViewContent {
-            print($0)
+        let contentView = RegisterViewContent { [weak self] in
+            guard let self = self else {return}
+            presenter?.checkName(name: $0)
         }
         
         let content = UIHostingController(rootView: contentView)

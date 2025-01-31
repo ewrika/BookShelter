@@ -8,7 +8,7 @@
 import UIKit
 
 enum WindowCase {
-    case preview, reg , onboarding , main
+    case  reg , onboarding , main
 }
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -31,8 +31,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let userInfo = notification.userInfo as? [String:WindowCase] , let window = userInfo[.windowInfo] else {return}
         
         switch window {
-        default:
+        case .reg:
             self.window?.rootViewController = Builder.createRegistView()
+        case .onboarding:
+            self.window?.rootViewController = Builder.createOnboardingView()
+        case .main:
+            print("Main")
+
         }
         
         

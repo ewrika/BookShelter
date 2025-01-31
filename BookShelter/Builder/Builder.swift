@@ -27,4 +27,9 @@ class Builder {
         }
     }
     
+    static func createOnboardingView() -> UIViewController {
+        return self.createView(viewType: OnboardingView.self) { view in
+        OnboardingViewPresenter(view: view)
+        }
+    }
 }
