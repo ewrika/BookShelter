@@ -7,20 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85BA4DB2D4BE53200EA8607 /* Jost.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85BA4DA2D4BE53200EA8607 /* Jost.ttf */; };
+		E85BA4DE2D4BE72300EA8607 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E85BA4DD2D4BE72300EA8607 /* Lottie */; };
+		E85BA4E12D4BEA7000EA8607 /* bookAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = E85BA4E02D4BEA7000EA8607 /* bookAnimation.json */; };
+		E85BA4E32D4BEB3C00EA8607 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4E22D4BEB3C00EA8607 /* FontManager.swift */; };
+		E85BA4E72D4C053600EA8607 /* Notification.Name.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4E62D4C053600EA8607 /* Notification.Name.ext.swift */; };
+		E85BA4EC2D4C061200EA8607 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4EB2D4C061200EA8607 /* PreviewView.swift */; };
+		E85BA4F22D4CB1F300EA8607 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4F12D4CB1F300EA8607 /* Builder.swift */; };
+		E85BA4F42D4CB4EE00EA8607 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4F32D4CB4EE00EA8607 /* RegisterView.swift */; };
+		E85BA4F62D4CB5A700EA8607 /* RegisterViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4F52D4CB5A700EA8607 /* RegisterViewPresenter.swift */; };
+		E85BA4F82D4CB76D00EA8607 /* RegisterViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4F72D4CB76D00EA8607 /* RegisterViewContent.swift */; };
+		E85BA4FC2D4CBAF500EA8607 /* String.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4FB2D4CBAF500EA8607 /* String.ext.swift */; };
+		E85BA5002D4CC13600EA8607 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA4FF2D4CC13600EA8607 /* CustomFont.swift */; };
+		E85BA5032D4CC28E00EA8607 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85BA5022D4CC28E00EA8607 /* View.ext.swift */; };
 		E878217F2D4A8E0900D63B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878217E2D4A8E0900D63B33 /* AppDelegate.swift */; };
 		E87821812D4A8E0900D63B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87821802D4A8E0900D63B33 /* SceneDelegate.swift */; };
-		E87821832D4A8E0900D63B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87821822D4A8E0900D63B33 /* ViewController.swift */; };
-		E87821862D4A8E0900D63B33 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E87821852D4A8E0900D63B33 /* Base */; };
 		E87821882D4A8E0A00D63B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87821872D4A8E0A00D63B33 /* Assets.xcassets */; };
 		E878218B2D4A8E0A00D63B33 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E878218A2D4A8E0A00D63B33 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E85BA4DA2D4BE53200EA8607 /* Jost.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jost.ttf; sourceTree = "<group>"; };
+		E85BA4E02D4BEA7000EA8607 /* bookAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookAnimation.json; sourceTree = "<group>"; };
+		E85BA4E22D4BEB3C00EA8607 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		E85BA4E62D4C053600EA8607 /* Notification.Name.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.ext.swift; sourceTree = "<group>"; };
+		E85BA4EB2D4C061200EA8607 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E85BA4F12D4CB1F300EA8607 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		E85BA4F32D4CB4EE00EA8607 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E85BA4F52D4CB5A700EA8607 /* RegisterViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewPresenter.swift; sourceTree = "<group>"; };
+		E85BA4F72D4CB76D00EA8607 /* RegisterViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewContent.swift; sourceTree = "<group>"; };
+		E85BA4FB2D4CBAF500EA8607 /* String.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.ext.swift; sourceTree = "<group>"; };
+		E85BA4FF2D4CC13600EA8607 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		E85BA5022D4CC28E00EA8607 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
 		E878217B2D4A8E0900D63B33 /* BookShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E878217E2D4A8E0900D63B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87821802D4A8E0900D63B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E87821822D4A8E0900D63B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E87821852D4A8E0900D63B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E87821872D4A8E0A00D63B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E878218A2D4A8E0A00D63B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E878218C2D4A8E0A00D63B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +52,148 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85BA4DE2D4BE72300EA8607 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E85BA4D92D4BE50700EA8607 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4DA2D4BE53200EA8607 /* Jost.ttf */,
+				E85BA4E22D4BEB3C00EA8607 /* FontManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E85BA4DF2D4BE73500EA8607 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4E02D4BEA7000EA8607 /* bookAnimation.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		E85BA4E42D4C04F200EA8607 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA5012D4CC27E00EA8607 /* View */,
+				E85BA4FD2D4CC11B00EA8607 /* Modifiers */,
+				E85BA4E52D4C051600EA8607 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E85BA4E52D4C051600EA8607 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4FA2D4CBAE800EA8607 /* String */,
+				E85BA4F92D4CBAD100EA8607 /* Notification */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E85BA4E82D4C05A000EA8607 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4E92D4C05A600EA8607 /* PreviewView */,
+				E85BA4ED2D4CB1AF00EA8607 /* RegisterView */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E85BA4E92D4C05A600EA8607 /* PreviewView */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4EA2D4C05BB00EA8607 /* View */,
+			);
+			path = PreviewView;
+			sourceTree = "<group>";
+		};
+		E85BA4EA2D4C05BB00EA8607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4EB2D4C061200EA8607 /* PreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E85BA4ED2D4CB1AF00EA8607 /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4EF2D4CB1CC00EA8607 /* Presenter */,
+				E85BA4EE2D4CB1C000EA8607 /* View */,
+			);
+			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		E85BA4EE2D4CB1C000EA8607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4F32D4CB4EE00EA8607 /* RegisterView.swift */,
+				E85BA4F72D4CB76D00EA8607 /* RegisterViewContent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E85BA4EF2D4CB1CC00EA8607 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4F52D4CB5A700EA8607 /* RegisterViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E85BA4F02D4CB1DC00EA8607 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4F12D4CB1F300EA8607 /* Builder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		E85BA4F92D4CBAD100EA8607 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4E62D4C053600EA8607 /* Notification.Name.ext.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		E85BA4FA2D4CBAE800EA8607 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4FB2D4CBAF500EA8607 /* String.ext.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		E85BA4FD2D4CC11B00EA8607 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4FE2D4CC12A00EA8607 /* Font */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		E85BA4FE2D4CC12A00EA8607 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA4FF2D4CC13600EA8607 /* CustomFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E85BA5012D4CC27E00EA8607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85BA5022D4CC28E00EA8607 /* View.ext.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E87821722D4A8E0900D63B33 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +213,13 @@
 		E878217D2D4A8E0900D63B33 /* BookShelter */ = {
 			isa = PBXGroup;
 			children = (
+				E85BA4F02D4CB1DC00EA8607 /* Builder */,
+				E85BA4E82D4C05A000EA8607 /* Module */,
+				E85BA4E42D4C04F200EA8607 /* Helper */,
+				E85BA4DF2D4BE73500EA8607 /* Lottie */,
+				E85BA4D92D4BE50700EA8607 /* Fonts */,
 				E878217E2D4A8E0900D63B33 /* AppDelegate.swift */,
 				E87821802D4A8E0900D63B33 /* SceneDelegate.swift */,
-				E87821822D4A8E0900D63B33 /* ViewController.swift */,
-				E87821842D4A8E0900D63B33 /* Main.storyboard */,
 				E87821872D4A8E0A00D63B33 /* Assets.xcassets */,
 				E87821892D4A8E0A00D63B33 /* LaunchScreen.storyboard */,
 				E878218C2D4A8E0A00D63B33 /* Info.plist */,
@@ -83,6 +243,9 @@
 			dependencies = (
 			);
 			name = BookShelter;
+			packageProductDependencies = (
+				E85BA4DD2D4BE72300EA8607 /* Lottie */,
+			);
 			productName = BookShelter;
 			productReference = E878217B2D4A8E0900D63B33 /* BookShelter.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +274,9 @@
 				Base,
 			);
 			mainGroup = E87821722D4A8E0900D63B33;
+			packageReferences = (
+				E85BA4DC2D4BE72300EA8607 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E878217C2D4A8E0900D63B33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85BA4E12D4BEA7000EA8607 /* bookAnimation.json in Resources */,
+				E85BA4DB2D4BE53200EA8607 /* Jost.ttf in Resources */,
 				E87821882D4A8E0A00D63B33 /* Assets.xcassets in Resources */,
 				E878218B2D4A8E0A00D63B33 /* Base in Resources */,
-				E87821862D4A8E0900D63B33 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +305,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87821832D4A8E0900D63B33 /* ViewController.swift in Sources */,
+				E85BA4EC2D4C061200EA8607 /* PreviewView.swift in Sources */,
+				E85BA4F82D4CB76D00EA8607 /* RegisterViewContent.swift in Sources */,
+				E85BA4E72D4C053600EA8607 /* Notification.Name.ext.swift in Sources */,
+				E85BA5032D4CC28E00EA8607 /* View.ext.swift in Sources */,
 				E878217F2D4A8E0900D63B33 /* AppDelegate.swift in Sources */,
+				E85BA4F42D4CB4EE00EA8607 /* RegisterView.swift in Sources */,
+				E85BA4E32D4BEB3C00EA8607 /* FontManager.swift in Sources */,
+				E85BA5002D4CC13600EA8607 /* CustomFont.swift in Sources */,
 				E87821812D4A8E0900D63B33 /* SceneDelegate.swift in Sources */,
+				E85BA4F62D4CB5A700EA8607 /* RegisterViewPresenter.swift in Sources */,
+				E85BA4F22D4CB1F300EA8607 /* Builder.swift in Sources */,
+				E85BA4FC2D4CBAF500EA8607 /* String.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E87821842D4A8E0900D63B33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E87821852D4A8E0900D63B33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E87821892D4A8E0A00D63B33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +465,6 @@
 				INFOPLIST_FILE = BookShelter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +492,6 @@
 				INFOPLIST_FILE = BookShelter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +529,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E85BA4DC2D4BE72300EA8607 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E85BA4DD2D4BE72300EA8607 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E85BA4DC2D4BE72300EA8607 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E87821732D4A8E0900D63B33 /* Project object */;
 }
