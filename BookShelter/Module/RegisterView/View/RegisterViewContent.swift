@@ -19,13 +19,7 @@ struct RegisterViewContent: View {
                     .foregroundColor(.white)
                 Spacer()
                 
-                TextField("Ваше Имя",text: $nameField)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 52)
-                    .padding(.horizontal, 10)
-                    .background(.appDark)
-                    .foregroundColor(.white)
-                    .clipShape(.rect(cornerRadius: 10))
+                BaseTextView(placeholder: "Ваше Имя", text: $nameField)
                 
                 Spacer()
                 

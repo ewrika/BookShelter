@@ -23,6 +23,8 @@ class RegisterViewPresenter:RegistViewPresenterProtocol {
     func checkName(name:String) {
         if name.count >= 2 {
             UserDefaults.standard.set(name,forKey: "name")
+            UserDefaults.standard.set(WindowCase.onboarding.rawValue,forKey: "state")
+
             //navigate
             NotificationCenter.default.post(name: .windowManager, object: nil,userInfo: [String.windowInfo: WindowCase.onboarding])
         }

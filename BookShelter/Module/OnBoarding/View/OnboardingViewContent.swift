@@ -10,13 +10,8 @@ import SwiftUI
 struct OnboardingViewContent: View {
     var slides: [OnboardingViewData]
     var completion : () -> Void
-    @State var selected:Int = 0 {
-        willSet {
-            if newValue == slides.count-1 {
-                buttonText = "Начать пользоваться"
-            }
-        }
-    }
+    @State var selected:Int = 0
+    
     @State var buttonText:String = "Далее"
     var body: some View {
         VStack {
@@ -49,6 +44,16 @@ struct OnboardingViewContent: View {
                 }
             }
             .frame(height: 400)
+            .onChange(of: selected) { oldValue , newValue in
+                withAnimation{
+                    if newValue == slides.count-1 {
+                        buttonText = "Начать пользоваться"
+                    } else {
+                        buttonText = "Далее"
+                    }
+                }
+            }
+            
             Spacer()
             VStack{
                 OrangeButton(title: buttonText) {
