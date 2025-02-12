@@ -23,19 +23,44 @@ class Builder {
     
     static func createRegistView() -> UIViewController {
         return self.createView(viewType: RegisterView.self) { view in
-        RegisterViewPresenter(view: view)
+            RegisterViewPresenter(view: view)
         }
     }
     
     static func createOnboardingView() -> UIViewController {
         return self.createView(viewType: OnboardingView.self) { view in
-        OnboardingViewPresenter(view: view)
+            OnboardingViewPresenter(view: view)
         }
     }
     
     static func createMainView() -> UIViewController {
         return self.createView(viewType: MainView.self) { view in
-        MainViewPresenter(view: view)
+            MainViewPresenter(view: view)
         }
     }
+    
+    static func createDetailsView() -> UIViewController {
+        return self.createView(viewType: DetailsView.self){ view in
+            DetailsViewPresenter(view:view)
+        }
+    }
+    
+    static func createAddView() -> UIViewController {
+        return self.createView(viewType: AddBookView.self){ view in
+            AddBookPresenter(view:view)
+        }
+    }
+    
+    static func createListView() -> UIViewController {
+        return self.createView(viewType: BookListView.self){ view in
+            BookListPresenter(view:view)
+        }
+    }
+    
+    static func createAddDetailsView() -> UIViewController {
+        return self.createView(viewType: AddDetailsView.self){ view in
+            AddDetailsPresenter(view: view)
+        }
+    }
+    
 }
